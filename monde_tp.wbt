@@ -1,0 +1,48 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5846454298141718 0.5853766288171252 0.5617151625442384 2.1169436365774708
+  position 0.01490037276656512 0.04916018530663802 3.4975432593320726
+}
+TexturedBackground {
+}
+RectangleArena {
+  floorSize 1.5 1.5
+  floorTileSize 0.25 0.25
+}
+E-puck {
+  hidden position_0_0 157.1625925831393
+  hidden position_0_1 179.4456541380654
+  hidden linearVelocity_0 0.009809081967934728 -0.02529723183117858 -9.014903262448387e-08
+  hidden angularVelocity_0 0.017594694238106515 0.006820977461006333 0.018635355794997196
+  hidden rotation_1 0 -0.9999999999999999 0 6.200225403529964
+  hidden linearVelocity_1 0.009667759015927757 -0.024933146309173163 -2.22844267483264e-09
+  hidden angularVelocity_1 1.2445472520095557 0.48257109058295655 0.01874143987812667
+  hidden rotation_2 0 1 0 3.5164655370369857
+  hidden linearVelocity_2 0.010018431855917772 -0.02583741674607576 1.9046870747294795e-09
+  hidden angularVelocity_2 1.293978664092594 0.501737592164659 0.01875127050201891
+  translation 0.40605763818547946 -0.00655474201180919 -2.211226054866025e-05
+  rotation -0.00031701774985058365 -0.00047015367707996475 -0.9999998392276201 1.2006076482205856
+  controller "e-puck"
+}
+RectangleArena {
+  translation -0.06 0.35 0
+  name "rectangle arena(1)"
+  floorSize 0.35 0.8
+  floorTileSize 0.25 0.25
+}
+RectangleArena {
+  translation 0.23 0.2 0
+  name "rectangle arena(2)"
+  floorSize 0.2 0.5
+  floorTileSize 0.25 0.25
+}
+TexturedBackgroundLight {
+}
