@@ -18,33 +18,25 @@ RectangleArena {
   floorTileSize 0.25 0.25
 }
 E-puck {
-  hidden position_0_0 270.2966270977975
-  hidden position_0_1 309.5809953521128
-  hidden linearVelocity_0 -0.02367145538778404 -0.012436506663056561 2.579956265855639e-07
-  hidden angularVelocity_0 0.0050414090735971554 -0.009564054937564806 0.04298817825678244
-  hidden translation_1 0 0.025999999999999995 0.02
-  hidden rotation_1 0 -1 0 6.163526418104293
-  hidden linearVelocity_1 -0.022728968064695113 -0.011941318045390874 -5.313094109563414e-09
-  hidden angularVelocity_1 0.5946153969579386 -1.1317354937412174 0.043225135932553484
-  hidden translation_2 0 -0.025999999999999995 0.02
-  hidden rotation_2 0 -1 0 4.5782700068665445
-  hidden linearVelocity_2 -0.024709819639053606 -0.01298303028111957 2.8987763800426525e-09
-  hidden angularVelocity_2 0.6515966053173055 -1.2401936334656551 0.043286346853983505
-  translation 0.5896842057114001 0.6958447717666031 -2.2132875549869813e-05
-  rotation -0.000907399122033609 -0.00021783938276111165 0.9999995645863236 -2.6571877882559933
+  translation 0.5896842057114001 0.6958447717666031 0
+  rotation 0 0 1 -2.6571877882559933
   controller "e-puck"
 }
 RectangleArena {
-  translation -0.06 0.35 0
+  translation -0.06 0.345 -0.01
   name "rectangle arena(1)"
-  floorSize 0.35 0.8
+  floorSize 0.35 0.79
   floorTileSize 0.25 0.25
+  wallThickness 0.01
+  wallHeight 0.06
 }
 RectangleArena {
-  translation 0.23 0.2 0
+  translation 0.235 0.2 -0.01
   name "rectangle arena(2)"
   floorSize 0.2 0.5
   floorTileSize 0.25 0.25
+  wallThickness 0.01
+  wallHeight 0.06
 }
 TexturedBackgroundLight {
 }
